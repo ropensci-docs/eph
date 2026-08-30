@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "60ea2982cc8fe7f51340f0d65a04450576aa24a4",
+    "author": "Carolina Pradier <carolinapradier@gmail.com>",
+    "time": "2024-08-06T17:01:23Z",
+    "files": 36,
+    "merge": false,
+    "message": "update site\n"
+  },
+  "repo": "https://github.com/ropensci/eph",
+  "pkg": "eph",
+  "time": "2026-08-30T07:40:21Z"
+}
