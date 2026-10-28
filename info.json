@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "8123dd844a45ce32c627594304bb422e82c00883",
+    "author": "juancamilogutman <gutmanjuancamilo@gmail.com>",
+    "time": "2026-10-28T02:26:20Z",
+    "files": 2,
+    "merge": false,
+    "message": "Increment version number to 1.0.2.9000\n"
+  },
+  "repo": "https://github.com/ropensci/eph",
+  "pkg": "eph",
+  "time": "2026-10-28T06:03:31Z"
+}

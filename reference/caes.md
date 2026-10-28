@@ -1,0 +1,55 @@
+# Categorias del Clasificador de Actividades Economicas para encuestas Sociodemograficas
+
+Base con codigos y etiquetas del Clasificador de actividades economicas
+para encuestas sociodemograficas. CAES Mercosur 1.0 - Actualizacion
+2018. Basado en https://bit.ly/notas-explicativas-CAES-v2018 y
+https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/caes_v2018.xls,
+obtenidos de
+https://www.indec.gob.ar/indec/web/Institucional-Indec-Clasificadores
+
+## Uso
+
+``` r
+caes
+```
+
+## Formato
+
+Un data frame con 140 filas y 8 variables:
+
+- caes_version:
+
+  (character) Version del CAES utilizada
+
+- PP04B_COD:
+
+  (character) Codigo clase CAES. 4 digitos (nivel 3) Variable que
+  aparece en microdatos EPH
+
+- PP04B_label:
+
+  (character) Etiqueta clase CAES
+
+- caes_seccion_cod:
+
+  (character) Codigo seccion CAES. 2 digitos (nivel 2)
+
+- caes_seccion_label:
+
+  (character) Etiqueta seccion CAES
+
+- caes_division_cod:
+
+  (character) Codigo division CAES. Letra (nivel 1)
+
+- caes_division_label:
+
+  (character) Etiqueta division CAES
+
+- caes_eph_cod:
+
+  (character) Codigo reagrupamiento de CAES utilizado por EPH (nivel 1)
+
+- caes_eph_label:
+
+  (factor) Etiqueta reagrupamiento de CAES utilizado por EPH (nivel 1)
